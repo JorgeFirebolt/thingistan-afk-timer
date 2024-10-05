@@ -1,11 +1,11 @@
-# Manyland AFK Timer
+# Thingistan AFK Timer
 
-- A manyland mod to implement a time elapsed count with the next format `hh-mm-ss`, so other players are aknowledge of how long you've been AFK.
+- A Thingistan mod to implement a time elapsed count with the next format `hh-mm-ss`, so other players are aknowledge of how long you've been AFK.
 - Easy to use and deploy. (see on [how to deploy the script on my browser](./#deployment))
 
 ## Deployment
 
-There's 2 easy ways to deploy your script on your Manyland client _(ommitting just copypasting the source code on console or using Snippets)_, **with** or **without** the extension Tampermonkey.
+There's 2 easy ways to deploy your script on your Thingistan client _(ommitting just copypasting the source code on console or using Snippets)_, **with** or **without** the extension Tampermonkey.
 
 | Aspect                 | Tampermonkey                                | `$.getScript("afk_timer_url")` in JavaScript           |
 |------------------------|--------------------------------------------|----------------------------------------------|
@@ -13,13 +13,13 @@ There's 2 easy ways to deploy your script on your Manyland client _(ommitting ju
 
 ### Without Tampermokey
 
-1. Write the following line on your Manyland tab `javascript:$.getScript("https://cdn.jsdelivr.net/gh/JorgeFirebolt/manyland-afk-timer/afk_timer.js")`.
+1. Write the following line on your Thingistan tab `javascript:$.getScript("https://cdn.jsdelivr.net/gh/JorgeFirebolt/thingistan-afk-timer/afk_timer.js")`.
 2. Press enter, and, everything should be done. Next step is to follow [Getting started](./#getting-started).
 
 ### With Tampermonkey
 
-1. Click this [link](https://greasyfork.org/en/scripts/476980-afk-timer) to install it on your Tampermonkey client.
-2. Done, once you join Manyland next step is to follow [Getting started](./#getting-started).
+~~1. Click this [link](https://greasyfork.org/en/scripts/476980-afk-timer) to install it on your Tampermonkey client.~~
+~~2. Done, once you join Thingistan next step is to follow [Getting started](./#getting-started).~~
 
 ## Getting started
 
