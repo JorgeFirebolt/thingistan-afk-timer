@@ -13,7 +13,7 @@ function main() {
         localStorage.removeItem(INITIAL_NAME_KEY);
     }
 
-    onMotionKey = Deobfuscator.function(ig.game.motionDialog, 'function(){1<=b.motionIds.length&&', true);
+    onMotionKey = Deobfuscator.function(ig.game.motionDialog, 'function(a){if("string"===typeof a){a=a.toLowerCase()', true);
     ig.game.motionDialog.oldTalkFunc = ig.game.motionDialog[onMotionKey];
     ig.game.motionDialog.elapsePlayer = elapsePlayer;
     ig.game.motionDialog.getBack = getBack;
